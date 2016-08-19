@@ -1,0 +1,13 @@
+---
+layout: page.handlebars
+---
+<div class="content">
+{{> body }}
+</div>
+
+<p>Tags:</p>
+<ul class="tags">
+{{#each tags}}
+    <li>{{ this }}</li>
+{{/each}}
+</ul>

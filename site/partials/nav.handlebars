@@ -1,0 +1,6 @@
+<ul>{{#each pages ~}}
+    {{#is "index" title }}{{ else }}
+    <li><a href="{{relative ../TAFT.output "www/." }}/{{ @key }}">{{ title }}</a></li>
+{{/is}}
+{{/each}}
+</ul>

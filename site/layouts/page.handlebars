@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ title }} - taft-demo-site</title>
+    <link rel="stylesheet" href="{{relative TAFT.output "www/assets/style.css"}}">
+    <script src="{{relative TAFT.output "www/assets/scripts.js"}}" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+
+{{> nav }}
+
+<h1><a href="{{relative TAFT.output "www/index.html"}}">Taft demo site</a></h1>
+<h2>{{ page.title }}</h2>
+{{> body }}
+</body>
+</html>

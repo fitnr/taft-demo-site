@@ -1,0 +1,11 @@
+---
+about.html:
+    title: About
+    layout: page.handlebars
+contact.html:
+    title: Contact
+    layout: page.handlebars
+index.html:
+    title: 'Welcome!'
+    layout: page.handlebars
+

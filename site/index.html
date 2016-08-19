@@ -1,0 +1,17 @@
+---
+title: Welcome!
+layout: page.handlebars
+---
+<p>
+    Welcome to my blog!
+</p>
+
+{{#each posts}}
+<article>
+    <header>
+        <h2><a href="posts/{{ @key }}.html">{{ title }}</a></h2>
+        <!-- join is an example of a custom helper, see helpers.js -->
+        <p>tags: {{join tags ", "}}</p>
+    </header>
+</article>
+{{/each}}
